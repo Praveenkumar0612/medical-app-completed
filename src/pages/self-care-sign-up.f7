@@ -1,0 +1,76 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar 
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title sliding">medical</div>
+        <div class="right">
+          <a href="#" class="link icon-only panel-open" data-panel="right">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title-large">
+          <div class="title-large-text">medical</div>
+        </div>
+      </div>
+    </div>-->
+    <!-- Toolbar-->
+    <!--<div class="toolbar toolbar-bottom">
+      <div class="toolbar-inner">
+        <a href="#" class="link">Left Link</a>
+        <a href="#" class="link">Right Link</a>
+      </div>
+    </div>
+     Scrollable page content-->
+    <div class="page-content">
+      <div class="block">
+        <div class="let-get-main">
+          <img src="../assets/logo medicine 1 4 5.svg" alt=""/>
+        </div> 
+      </div>
+      <div class="block">
+        <div class="let-get-con">
+          <h1>Sign Up</h1>
+        </div>
+      </div>
+      <div class="block">
+        <form action="/action_page.php">
+          <div class="container">
+            <div class="email-pass">
+              <label for="email"><b>Full Name</b></label>
+    <input type="text" placeholder="Jan Kowalski" name="name" id="name" required />
+        <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="patient@self.com" name="email" id="email" required />
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Min 8 cyfr" name="psw" id="psw" required />
+    <div class="tacbox">
+      <input id="checkbox" type="checkbox" />
+      <label for="checkbox"> I agree with Terms and <a href="#">Privacy Policy</a>.</label>
+    </div>
+  </div>
+          </div>
+          
+  </form>
+      </div>
+      <div class="block">
+        <div class="let-get-bottom sign-in-button"> <a href="/entry6/" class="button-start">Sign In</a></div>
+      <div class="container signin">
+        <p>Already have account? <a href='/entry4/'>Sign In</a>.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>

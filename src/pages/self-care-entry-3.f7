@@ -1,0 +1,487 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar 
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title sliding">medical</div>
+        <div class="right">
+          <a href="#" class="link icon-only panel-open" data-panel="right">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title-large">
+          <div class="title-large-text">medical</div>
+        </div>
+      </div>
+    </div>-->
+    <!-- Toolbar-->
+    <!--<div class="toolbar toolbar-bottom">
+      <div class="toolbar-inner">
+        <a href="#" class="link">Left Link</a>
+        <a href="#" class="link">Right Link</a>
+      </div>
+    </div>
+     Scrollable page content-->
+    <div class="page-content ">
+      <div class="block">
+        <div class="let-get-main">
+          <img src="../assets/logo medicine 1 4 5.svg" alt=""/>
+        </div>
+        </div>
+        <div class="block">
+          <div class="let-get-con">
+            <h1>A little about yourself</h1>
+            <p>Ed laoreet eros laoreet.</p>
+          </div>
+        </div>
+        <div class="block">
+          <div class="your-self"><h4>Your gender</h4></div>
+          
+          <div class="grid grid-cols-2 entyr-2-grid">
+  <div class="two-column">
+    <div class="your-gender-main list list-outline-ios list-strong-ios list-strong-ios-yr-gender list-dividers-ios media-list">
+      <ul>
+      <li>
+    <a class="item-link item-content your-gender item-content-ho item-content-ho-entry">
+        <div class="item-media icon-media icon-media-entry-2 icon-media-entry-3"><svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_9_448)">
+          <path d="M11.2236 4.22C11.2236 5.99452 9.77809 7.44 8.00357 7.44C6.22882 7.44 4.78357 5.99456 4.78357 4.22C4.78357 2.44548 6.22905 1 8.00357 1C9.77809 1 11.2236 2.44548 11.2236 4.22Z" stroke="black" stroke-width="2"/>
+          <path d="M1.16504 12.202L1.16481 12.2023C1.01557 12.405 0.962051 12.6663 1.02779 12.927C1.02781 12.9271 1.02783 12.9272 1.02785 12.9273L3.71406 23.5539L3.71406 23.5539C4.23453 25.613 6.0029 27.0041 7.96619 27.0041C9.92947 27.0041 11.6978 25.613 12.2183 23.5539L12.2183 23.5539L14.9045 12.9275C14.9045 12.9275 14.9046 12.9274 14.9046 12.9273C14.9704 12.6665 14.917 12.4051 14.7678 12.2023L1.16504 12.202ZM1.16504 12.202C1.31205 12.0022 1.51595 11.9054 1.72715 11.9054H14.2052M1.16504 12.202L14.2052 11.9054M14.2052 11.9054C14.4165 11.9054 14.6202 12.002 14.7677 12.2021L14.2052 11.9054Z" stroke="black" stroke-width="2"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_9_448">
+          <rect width="16" height="28" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg>
+                                
+        </div>
+        <div class="item-inner your-self-in">
+          <div class="item-title-row your-self-row">
+            <div class="item-title">Male</div>
+          </div>
+        </div>
+      </a>
+    </li>
+    </ul>
+  </div></div>
+  <div class="two-column">
+    <div class="your-gender-main list list-outline-ios list-strong-ios list-strong-ios-yr-gender list-dividers-ios media-list">
+    <ul>
+      <li>
+        <a class="item-link item-content your-gender item-content-ho item-content-ho-entry">
+            <div class="item-media icon-media icon-media-entry-2 icon-media-entry-3"><svg width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_440)">
+              <rect width="16" height="27" fill="#none"/>
+              <path d="M11.2913 4.21817C11.2913 5.99119 9.84633 7.43607 8.07132 7.43607C6.29608 7.43607 4.85132 5.99124 4.85132 4.21817C4.85132 2.44484 6.29635 1 8.07132 1C9.84629 1 11.2913 2.44484 11.2913 4.21817Z" stroke="#1C1F1E" stroke-width="2"/>
+              <path d="M12.2882 14.8244L12.2882 14.8244L14.9744 25.0715C14.9744 25.0716 14.9744 25.0717 14.9744 25.0718C15.0344 25.3011 14.9874 25.5327 14.8457 25.7182C14.7042 25.9035 14.4988 26.0039 14.2729 26.0039H1.79456C1.56867 26.0039 1.36326 25.9035 1.22174 25.7182C1.08003 25.5326 1.03312 25.3011 1.09322 25.072L1.09328 25.0718L3.77928 14.8244C3.77928 14.8244 3.77928 14.8244 3.77928 14.8244C4.29113 12.8718 6.04503 11.5159 8.03386 11.5159C10.0226 11.5159 11.7763 12.8717 12.2882 14.8244Z" stroke="#1C1F1E" stroke-width="2"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_440">
+              <rect width="16" height="27" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+              
+            </div>
+            <div class="item-inner your-self-in">
+              <div class="item-title-row your-self-row">
+                <div class="item-title">Female</div>
+              </div>
+            </div>
+          </a>
+        </li>
+        </ul>
+    </div></div>
+</div>
+          
+        </div>
+        <div class="block">
+          <div class="your-self"><h4>Your birthday</h4></div>
+          <div class="grid grid-cols-3 grid-gap">
+            <div class="item-content item-input item-input-with-value">
+              <div class="item-inner"><div class="item-title item-label item-title-date-of-brt">Day:</div>
+              <div class="item-input-wrap item-date-of-birth"><select name="gender" class="input-with-value date-of-birth" fdprocessedid="it8lt5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="1">3</option>
+                <option value="2">4</option>
+                <option value="1">5</option>
+                <option value="2">6</option>
+                <option value="1">7</option>
+                <option value="2">8</option>
+                <option value="1">9</option>
+                <option value="2">10</option>
+                <option value="1">11</option>
+                <option value="2">12</option>
+                <option value="1">13</option>
+                <option value="2">14</option>
+                <option value="1">15</option>
+                <option value="2">16</option>
+                <option value="1">17</option>
+                <option value="2">18</option>
+                <option value="1">19</option>
+                <option value="2">20</option>
+                <option value="2">21</option>
+                <option value="1">22</option>
+                <option value="2">23</option>
+                <option value="1">24</option>
+                <option value="2">25</option>
+                <option value="1">26</option>
+                <option value="2">27</option>
+                <option value="1">28</option>
+                <option value="2">29</option>
+                <option value="1">30</option>
+                <option value="2">31</option>
+              </select>
+              </div>
+            </div>
+          </div>
+            <div><div class="item-content item-input item-input-with-value">
+              <div class="item-inner"><div class="item-title item-label item-title-date-of-brt">Month:</div>
+              <div class="item-input-wrap item-date-of-birth"><select name="gender" class="input-with-value date-of-birth" fdprocessedid="it8lt5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="1">3</option>
+                <option value="2">4</option>
+                <option value="1">5</option>
+                <option value="2">6</option>
+                <option value="1">7</option>
+                <option value="2">8</option>
+                <option value="1">9</option>
+                <option value="2">10</option>
+                <option value="1">11</option>
+                <option value="2">12</option>
+              </select>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div>
+              <div>
+              <div class="item-content item-input item-input-with-value">
+              <div class="item-inner"><div class="item-title item-label item-title-date-of-brt">Year:</div>
+              <div class="item-input-wrap item-date-of-birth"><select name="gender" class="input-with-value date-of-birth" fdprocessedid="it8lt5">
+                <option value="1">1990</option>
+                <option value="2">1991</option>
+                <option value="1">1992</option>
+                <option value="2">1993</option>
+                <option value="1">1994</option>
+                <option value="2">1995</option>
+                <option value="1">1996</option>
+                <option value="2">1997</option>
+                <option value="1">1998</option>
+                <option value="2">1999</option>
+                <option value="1">2000</option>
+                <option value="2">2001</option>
+                <option value="1">2002</option>
+                <option value="2">2003</option>
+                <option value="1">2004</option>
+                <option value="2">2005</option>
+                <option value="1">2006</option>
+                <option value="2">2007</option>
+                <option value="1">2008</option>
+                <option value="2">2009</option>
+                <option value="1">2010</option>
+                <option value="2">2011</option>
+                <option value="1">2012</option>
+                <option value="2">2013</option>
+                <option value="1">2014</option>
+                <option value="2">2015</option>
+                <option value="1">2016</option>
+                <option value="2">2017</option>
+                <option value="1">2018</option>
+                <option value="2">2019</option>
+                <option value="1">2020</option>
+                <option value="2">2021</option>
+                <option value="1">2022</option>
+                <option value="2">2023</option>
+                <option value="1">2024</option>
+              </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+          <div class="block">
+            <div class="your-self"><h4>Your location</h4></div>
+          <div class="country-con">
+      <select class="form-select from-sel-coun" id="country" name="country">
+        <option>Select country</option>
+        <option value="AF">Afghanistan</option>
+        <option value="AX">Aland Islands</option>
+        <option value="AL">Albania</option>
+        <option value="DZ">Algeria</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+        <option value="AI">Anguilla</option>
+        <option value="AQ">Antarctica</option>
+        <option value="AG">Antigua and Barbuda</option>
+        <option value="AR">Argentina</option>
+        <option value="AM">Armenia</option>
+        <option value="AW">Aruba</option>
+        <option value="AU">Australia</option>
+        <option value="AT">Austria</option>
+        <option value="AZ">Azerbaijan</option>
+        <option value="BS">Bahamas</option>
+        <option value="BH">Bahrain</option>
+        <option value="BD">Bangladesh</option>
+        <option value="BB">Barbados</option>
+        <option value="BY">Belarus</option>
+        <option value="BE">Belgium</option>
+        <option value="BZ">Belize</option>
+        <option value="BJ">Benin</option>
+        <option value="BM">Bermuda</option>
+        <option value="BT">Bhutan</option>
+        <option value="BO">Bolivia</option>
+        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+        <option value="BA">Bosnia and Herzegovina</option>
+        <option value="BW">Botswana</option>
+        <option value="BV">Bouvet Island</option>
+        <option value="BR">Brazil</option>
+        <option value="IO">British Indian Ocean Territory</option>
+        <option value="BN">Brunei Darussalam</option>
+        <option value="BG">Bulgaria</option>
+        <option value="BF">Burkina Faso</option>
+        <option value="BI">Burundi</option>
+        <option value="KH">Cambodia</option>
+        <option value="CM">Cameroon</option>
+        <option value="CA">Canada</option>
+        <option value="CV">Cape Verde</option>
+        <option value="KY">Cayman Islands</option>
+        <option value="CF">Central African Republic</option>
+        <option value="TD">Chad</option>
+        <option value="CL">Chile</option>
+        <option value="CN">China</option>
+        <option value="CX">Christmas Island</option>
+        <option value="CC">Cocos (Keeling) Islands</option>
+        <option value="CO">Colombia</option>
+        <option value="KM">Comoros</option>
+        <option value="CG">Congo</option>
+        <option value="CD">Congo, Democratic Republic of the Congo</option>
+        <option value="CK">Cook Islands</option>
+        <option value="CR">Costa Rica</option>
+        <option value="CI">Cote D'Ivoire</option>
+        <option value="HR">Croatia</option>
+        <option value="CU">Cuba</option>
+        <option value="CW">Curacao</option>
+        <option value="CY">Cyprus</option>
+        <option value="CZ">Czech Republic</option>
+        <option value="DK">Denmark</option>
+        <option value="DJ">Djibouti</option>
+        <option value="DM">Dominica</option>
+        <option value="DO">Dominican Republic</option>
+        <option value="EC">Ecuador</option>
+        <option value="EG">Egypt</option>
+        <option value="SV">El Salvador</option>
+        <option value="GQ">Equatorial Guinea</option>
+        <option value="ER">Eritrea</option>
+        <option value="EE">Estonia</option>
+        <option value="ET">Ethiopia</option>
+        <option value="FK">Falkland Islands (Malvinas)</option>
+        <option value="FO">Faroe Islands</option>
+        <option value="FJ">Fiji</option>
+        <option value="FI">Finland</option>
+        <option value="FR">France</option>
+        <option value="GF">French Guiana</option>
+        <option value="PF">French Polynesia</option>
+        <option value="TF">French Southern Territories</option>
+        <option value="GA">Gabon</option>
+        <option value="GM">Gambia</option>
+        <option value="GE">Georgia</option>
+        <option value="DE">Germany</option>
+        <option value="GH">Ghana</option>
+        <option value="GI">Gibraltar</option>
+        <option value="GR">Greece</option>
+        <option value="GL">Greenland</option>
+        <option value="GD">Grenada</option>
+        <option value="GP">Guadeloupe</option>
+        <option value="GU">Guam</option>
+        <option value="GT">Guatemala</option>
+        <option value="GG">Guernsey</option>
+        <option value="GN">Guinea</option>
+        <option value="GW">Guinea-Bissau</option>
+        <option value="GY">Guyana</option>
+        <option value="HT">Haiti</option>
+        <option value="HM">Heard Island and Mcdonald Islands</option>
+        <option value="VA">Holy See (Vatican City State)</option>
+        <option value="HN">Honduras</option>
+        <option value="HK">Hong Kong</option>
+        <option value="HU">Hungary</option>
+        <option value="IS">Iceland</option>
+        <option value="IN">India</option>
+        <option value="ID">Indonesia</option>
+        <option value="IR">Iran, Islamic Republic of</option>
+        <option value="IQ">Iraq</option>
+        <option value="IE">Ireland</option>
+        <option value="IM">Isle of Man</option>
+        <option value="IL">Israel</option>
+        <option value="IT">Italy</option>
+        <option value="JM">Jamaica</option>
+        <option value="JP">Japan</option>
+        <option value="JE">Jersey</option>
+        <option value="JO">Jordan</option>
+        <option value="KZ">Kazakhstan</option>
+        <option value="KE">Kenya</option>
+        <option value="KI">Kiribati</option>
+        <option value="KP">Korea, Democratic People's Republic of</option>
+        <option value="KR">Korea, Republic of</option>
+        <option value="XK">Kosovo</option>
+        <option value="KW">Kuwait</option>
+        <option value="KG">Kyrgyzstan</option>
+        <option value="LA">Lao People's Democratic Republic</option>
+        <option value="LV">Latvia</option>
+        <option value="LB">Lebanon</option>
+        <option value="LS">Lesotho</option>
+        <option value="LR">Liberia</option>
+        <option value="LY">Libyan Arab Jamahiriya</option>
+        <option value="LI">Liechtenstein</option>
+        <option value="LT">Lithuania</option>
+        <option value="LU">Luxembourg</option>
+        <option value="MO">Macao</option>
+        <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+        <option value="MG">Madagascar</option>
+        <option value="MW">Malawi</option>
+        <option value="MY">Malaysia</option>
+        <option value="MV">Maldives</option>
+        <option value="ML">Mali</option>
+        <option value="MT">Malta</option>
+        <option value="MH">Marshall Islands</option>
+        <option value="MQ">Martinique</option>
+        <option value="MR">Mauritania</option>
+        <option value="MU">Mauritius</option>
+        <option value="YT">Mayotte</option>
+        <option value="MX">Mexico</option>
+        <option value="FM">Micronesia, Federated States of</option>
+        <option value="MD">Moldova, Republic of</option>
+        <option value="MC">Monaco</option>
+        <option value="MN">Mongolia</option>
+        <option value="ME">Montenegro</option>
+        <option value="MS">Montserrat</option>
+        <option value="MA">Morocco</option>
+        <option value="MZ">Mozambique</option>
+        <option value="MM">Myanmar</option>
+        <option value="NA">Namibia</option>
+        <option value="NR">Nauru</option>
+        <option value="NP">Nepal</option>
+        <option value="NL">Netherlands</option>
+        <option value="AN">Netherlands Antilles</option>
+        <option value="NC">New Caledonia</option>
+        <option value="NZ">New Zealand</option>
+        <option value="NI">Nicaragua</option>
+        <option value="NE">Niger</option>
+        <option value="NG">Nigeria</option>
+        <option value="NU">Niue</option>
+        <option value="NF">Norfolk Island</option>
+        <option value="MP">Northern Mariana Islands</option>
+        <option value="NO">Norway</option>
+        <option value="OM">Oman</option>
+        <option value="PK">Pakistan</option>
+        <option value="PW">Palau</option>
+        <option value="PS">Palestinian Territory, Occupied</option>
+        <option value="PA">Panama</option>
+        <option value="PG">Papua New Guinea</option>
+        <option value="PY">Paraguay</option>
+        <option value="PE">Peru</option>
+        <option value="PH">Philippines</option>
+        <option value="PN">Pitcairn</option>
+        <option value="PL">Poland</option>
+        <option value="PT">Portugal</option>
+        <option value="PR">Puerto Rico</option>
+        <option value="QA">Qatar</option>
+        <option value="RE">Reunion</option>
+        <option value="RO">Romania</option>
+        <option value="RU">Russian Federation</option>
+        <option value="RW">Rwanda</option>
+        <option value="BL">Saint Barthelemy</option>
+        <option value="SH">Saint Helena</option>
+        <option value="KN">Saint Kitts and Nevis</option>
+        <option value="LC">Saint Lucia</option>
+        <option value="MF">Saint Martin</option>
+        <option value="PM">Saint Pierre and Miquelon</option>
+        <option value="VC">Saint Vincent and the Grenadines</option>
+        <option value="WS">Samoa</option>
+        <option value="SM">San Marino</option>
+        <option value="ST">Sao Tome and Principe</option>
+        <option value="SA">Saudi Arabia</option>
+        <option value="SN">Senegal</option>
+        <option value="RS">Serbia</option>
+        <option value="CS">Serbia and Montenegro</option>
+        <option value="SC">Seychelles</option>
+        <option value="SL">Sierra Leone</option>
+        <option value="SG">Singapore</option>
+        <option value="SX">Sint Maarten</option>
+        <option value="SK">Slovakia</option>
+        <option value="SI">Slovenia</option>
+        <option value="SB">Solomon Islands</option>
+        <option value="SO">Somalia</option>
+        <option value="ZA">South Africa</option>
+        <option value="GS">South Georgia and the South Sandwich Islands</option>
+        <option value="SS">South Sudan</option>
+        <option value="ES">Spain</option>
+        <option value="LK">Sri Lanka</option>
+        <option value="SD">Sudan</option>
+        <option value="SR">Suriname</option>
+        <option value="SJ">Svalbard and Jan Mayen</option>
+        <option value="SZ">Swaziland</option>
+        <option value="SE">Sweden</option>
+        <option value="CH">Switzerland</option>
+        <option value="SY">Syrian Arab Republic</option>
+        <option value="TW">Taiwan, Province of China</option>
+        <option value="TJ">Tajikistan</option>
+        <option value="TZ">Tanzania, United Republic of</option>
+        <option value="TH">Thailand</option>
+        <option value="TL">Timor-Leste</option>
+        <option value="TG">Togo</option>
+        <option value="TK">Tokelau</option>
+        <option value="TO">Tonga</option>
+        <option value="TT">Trinidad and Tobago</option>
+        <option value="TN">Tunisia</option>
+        <option value="TR">Turkey</option>
+        <option value="TM">Turkmenistan</option>
+        <option value="TC">Turks and Caicos Islands</option>
+        <option value="TV">Tuvalu</option>
+        <option value="UG">Uganda</option>
+        <option value="UA">Ukraine</option>
+        <option value="AE">United Arab Emirates</option>
+        <option value="GB">United Kingdom</option>
+        <option value="US">United States</option>
+        <option value="UM">United States Minor Outlying Islands</option>
+        <option value="UY">Uruguay</option>
+        <option value="UZ">Uzbekistan</option>
+        <option value="VU">Vanuatu</option>
+        <option value="VE">Venezuela</option>
+        <option value="VN">Viet Nam</option>
+        <option value="VG">Virgin Islands, British</option>
+        <option value="VI">Virgin Islands, U.s.</option>
+        <option value="WF">Wallis and Futuna</option>
+        <option value="EH">Western Sahara</option>
+        <option value="YE">Yemen</option>
+        <option value="ZM">Zambia</option>
+        <option value="ZW">Zimbabwe</option>
+    </select><span class="material-symbols-outlined contry-icon">keyboard_arrow_down</span></div>
+  </div>
+        <div class="block">
+          <div class="let-get-bottom"> <a href="/entry4/" class="button-start">Continue</a></div>
+        </div>
+       
+    <!--</div>-->
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>

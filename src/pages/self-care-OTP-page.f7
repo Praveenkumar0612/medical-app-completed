@@ -1,0 +1,66 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar 
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title sliding">medical</div>
+        <div class="right">
+          <a href="#" class="link icon-only panel-open" data-panel="right">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title-large">
+          <div class="title-large-text">medical</div>
+        </div>
+      </div>
+    </div>-->
+    <!-- Toolbar-->
+    <!--<div class="toolbar toolbar-bottom">
+      <div class="toolbar-inner">
+        <a href="#" class="link">Left Link</a>
+        <a href="#" class="link">Right Link</a>
+      </div>
+    </div>
+     Scrollable page content-->
+    <div class="page-content ">
+      <div class="block">
+        <div class="let-get-main">
+          <img src="../assets/logo medicine 1 4 5.svg" alt=""/>
+        </div>
+        </div>
+        <div class="block">
+          <div class="let-get-con">
+            <h1>Your Code</h1>
+            <p>Code send to your Email</p>
+          </div>
+        </div>
+        <div class="block">
+          <div class="grid grid-cols-4 grid-gap">
+            <div class="otp-num"><input type="number"/></div>
+            <div class="otp-num"><input type="number"/></div>
+            <div class="otp-num"><input type="number"/></div>
+            <div class="otp-num"><input type="number"/></div>
+          </div>
+          <div class="otp-resend"><h4>Resend Code? <a href="#">Click here</a></h4></div> 
+        </div>
+        <div class="block">
+          <div class="let-get-bottom"> <a href="/home/" class="button-start">Verify</a></div>
+        </div>
+       
+    <!--</div>-->
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>

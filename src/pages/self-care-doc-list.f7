@@ -141,7 +141,7 @@
         </swiper-container>
       ` : $h`
 
-      <swiper-container innerHTML=${doctor_categories} class="demo-swiper-multiple-1" space-between="10" slides-per-view="3">
+      <swiper-container innerHTML=${doctor_categories} class="demo-swiper-multiple-1 categories-swiper" space-between="10" slides-per-view="3">
       </swiper-container>
       `}
       

@@ -1551,8 +1551,13 @@ font-family: "Inter";
 .skeleton-container .home-doc-list-main {
   background: #FFFFFF;
 }
-
-
+.doc-img img {
+  width: 150px;
+  border-radius: 10px;
+}
+.categories-swiper swiper-slide img {
+  width: 24px;
+}
 
 
 

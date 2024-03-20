@@ -34,8 +34,13 @@
             <div class="grid grid-cols-3 grid-gap doc-inner-nav">
               <div class="nav-doc-bott-img-cl">
                 <div class="nav-doc-bott-img">
-                  <img style="width: 100px; height: 100px;"
-                    src="../assets/icon Dr. Eleanor Pena.png" alt="" />
+                  <div class="doc-img">
+                    ${loading ? $h`
+                      <div class="skeleton-effect-wave skeleton-block" style="width: 150px; height: 100px; border-radius: 10px;"></div>
+                      `: $h`
+                      <img src="${doctor_img}" alt="" />
+                      `}
+                  </div>
                   <div class="icon-doc-rating"><i class="f7-icons">star_fill</i>
                     ${loading ? $h`
                       <div class="skeleton-effect-wave skeleton-text">--</div>
@@ -49,7 +54,7 @@
                 <div class="nav-doc-bott-title">
 
                   ${loading ? $h`
-                  <div class="skeleton-effect-wave skeleton-text">-------------------</div>
+                  <div class="skeleton-effect-wave skeleton-text">-------------</div>
                   `: $h`
                   <h2>${doctor_name}</h2>
                   `}
@@ -245,7 +250,8 @@
           <h2>About a doctor</h2>
         </div>
         <div class="doc-inner-bott">
-          <p>Pellentesque placerat arcu in risus facilisis, sed laoreet eros laoreet...</p>
+          <!-- <p>Pellentesque placerat arcu in risus facilisis, sed laoreet eros laoreet...</p> -->
+          <p>${about}</p>
         </div>
 
       </div>
@@ -300,7 +306,7 @@
           location = data.location;
           doctor_college = data.college;
           doctor_fees = data.price;
-          // about = data.;
+          about = data.about_doctor;
           loading = false;
           console.log(data)
           $update();

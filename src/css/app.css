@@ -1538,7 +1538,8 @@ font-family: "Inter";
 
 /* ------------------------------ changes ------------------------------ */
 .popular-doctors-list .list .item-media img,
-.recent-docter-list .list .item-media img {
+.recent-docter-list .list .item-media img,
+.all-docter-list .list .item-media img {
   width: 75px;
   height: auto;
   border-radius: 10px;

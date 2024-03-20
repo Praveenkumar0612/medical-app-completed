@@ -119,106 +119,136 @@
           <swiper-slide>#mounth</swiper-slide>
         </swiper-container>
     <div class="block">
-      <swiper-container  class="demo-swiper-multiple-1" space-between="10" slides-per-view="3">
-        <swiper-slide><img style="width: 24px;" src="../assets/icon heart.svg" class="home-icon-swip-1" alt=""/><h6>Cardiologyst</h6></swiper-slide>
-        <swiper-slide><img style="width: 24px;" src="../assets//icon eye.svg" class="home-icon-swip-2" alt=""/><h6>Ophthalmologyst</h6></swiper-slide>
-        <swiper-slide><img style="width: 24px;" src="../assets/icon tooth.svg"  class="home-icon-swip-3" alt=""/><h6>Dentist</h6></swiper-slide>
-        <swiper-slide><img style="width: 24px;" src="../assets/icon heart.svg" class="home-icon-swip-1" alt=""/><h6>Cardiologyst</h6></swiper-slide>
-        <swiper-slide><img style="width: 24px;" src="../assets//icon eye.svg" class="home-icon-swip-2" alt=""/><h6>Ophthalmologyst</h6></swiper-slide>
-        <swiper-slide><img style="width: 24px;" src="../assets/icon tooth.svg" class="home-icon-swip-3" alt=""/><h6>Dentist</h6></swiper-slide>
+      ${loading ? $h`
+        <swiper-container class="demo-swiper-multiple-1 skeleton-text skeleton-effect-wave" space-between="10" slides-per-view="3">
+          <swiper-slide>
+            <div style="width: 50px; height: 50px; border-radius: 10px;" class="skeleton-block"></div>
+            <h6 class="skeleton-block"></h6>
+          </swiper-slide>
+          <swiper-slide>
+            <div style="width: 50px; height: 50px; border-radius: 10px;" class="skeleton-block"></div>
+            <h6 class="skeleton-block"></h6>
+          </swiper-slide>
+          <swiper-slide>
+            <div style="width: 50px; height: 50px; border-radius: 10px;" class="skeleton-block"></div>
+            <h6 class="skeleton-block"></h6>
+          </swiper-slide>
+          <swiper-slide>
+            <div style="width: 50px; height: 50px; border-radius: 10px;" class="skeleton-block"></div>
+            <h6 class="skeleton-block"></h6>
+          </swiper-slide>
+
+        </swiper-container>
+      ` : $h`
+
+      <swiper-container innerHTML=${doctor_categories} class="demo-swiper-multiple-1" space-between="10" slides-per-view="3">
       </swiper-container>
+      `}
       
     </div>
     <div class="block Recent-block-sec Recent-block-sec_1 ">
       <div class="grid grid-cols-2 grid-gap">
         <div class="home-recent-text"><h3>All</h3></div>
-        
       </div>
-      <div class="list media-list  list-outline-ios  home-doc-list-bott-main list-strong-ios list-dividers-ios">
-        <ul>
-          <li>
-            <a href="/all-doc-page/" class="item-link home-doc-list-bott">
-              <div class="item-content doc-item-cont doc-item-cont-bott">
-                <div class="item-media doc-item-media"><img style="border-radius: 8px;width: 40px;" src="../assets/image Dr. Floyd Miles.png" width="70"/>
-                </div>
-                <div class="item-inner doc-list-inner">
-                  <div class="item-title-row">
-                    <div class="item-title doc-item-title doc-item-title-bott"><h3>Dr. Floyd Miles</h3><p>Pediatrics</p></div>
-                    <div class="item-after doc-item-after doc-item-after-bott"><p>(220 reviews)</p><i class="f7-icons">star_fill</i><h6> 4.9 </h6></div>
-                  </div>
-                  
-                </div>
-              </div>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      <div class="list media-list  list-outline-ios  home-doc-list-bott-main list-strong-ios list-dividers-ios">
-        <ul>
-          <li>
-            <a href="/all-doc-page/" class="item-link home-doc-list-bott">
-              <div class="item-content doc-item-cont doc-item-cont-bott">
-                <div class="item-media doc-item-media"><img style="border-radius: 8px;width: 40px;" src="../assets/image Dr. Marvin McKinney.png" width="70"/>
-                </div>
-                <div class="item-inner doc-list-inner">
-                  <div class="item-title-row">
-                    <div class="item-title doc-item-title doc-item-title-bott"><h3>Dr. Guy Hawkins</h3><p>Dentist</p></div>
-                    <div class="item-after doc-item-after doc-item-after-bott"><p>(317 reviews)</p><i class="f7-icons">star_fill</i><h6> 4.9 </h6></div>
-                  </div>
-                  
-                </div>
-              </div>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      <div class="list media-list  list-outline-ios  home-doc-list-bott-main list-strong-ios list-dividers-ios">
-        <ul>
-          <li>
-            <a href="/all-doc-page/" class="item-link home-doc-list-bott">
-              <div class="item-content doc-item-cont doc-item-cont-bott">
-                <div class="item-media doc-item-media"><img style="border-radius: 8px;width: 40px;" src="../assets/image Dr. Guy Hawkins.png" width="70"/>
-                </div>
-                <div class="item-inner doc-list-inner">
-                  <div class="item-title-row">
-                    <div class="item-title doc-item-title doc-item-title-bott"><h3>Dr. Guy Hawkins</h3><p>Dentist</p></div>
-                    <div class="item-after doc-item-after doc-item-after-bott"><p>(85 reviews)</p><i class="f7-icons">star_fill</i><h6> 4.9 </h6></div>
-                  </div>
-                  
-                </div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="list media-list  list-outline-ios  home-doc-list-bott-main list-strong-ios list-dividers-ios">
-        <ul>
-          <li>
-            <a href="/all-doc-page/" class="item-link home-doc-list-bott">
-              <div class="item-content doc-item-cont doc-item-cont-bott">
-                <div class="item-media doc-item-media"><img style="border-radius: 8px;width: 40px;" src="../assets/image Dr. Savannah Nguyen.png" width="70"/>
-                </div>
-                <div class="item-inner doc-list-inner">
-                  <div class="item-title-row">
-                    <div class="item-title doc-item-title doc-item-title-bott"><h3>Dr. Savannah Nguyen</h3><p>Urologyst</p></div>
-                    <div class="item-after doc-item-after doc-item-after-bott"><p>(168 reviews)</p><i class="f7-icons">star_fill</i><h6> 4.8 </h6></div>
-                  </div>
-                  
-                </div>
-              </div>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
+
+      ${loading ?$h`
+        <div class="preloader-container">
+          <div class="preloader"></div>
+        </div>
+      `: $h`
+        <div class="all-docter-list" innerHTML=${all_doctor}></div>
+      `}
+
     </div>
     </div>
   </div>
 </template>
 <script>
-export default () => {
+  import $$ from "dom7";
+  export default function ( props, { $store, $f7, $on, $onBeforeMount, $onMounted, $onBeforeUnmount, $onUnmounted, $update, } ) {
+
+    let all_doctor;
+    let doctor_categories;
+    let loading = true;
+    const api_url = "https://sb.avsquaretechnologies.com/medical/wp-json/";
+
+        // -------------------------------------------------------------------------------------------------------- //
+
+        const get_doctor_categories = () => {
+      var apiUrl = api_url + "get/doctors-categories/";
+
+      fetch(apiUrl, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        // body: JSON.stringify(data), // Pass your data directly to the data option
+      })
+        .then(function (response) {
+          if (response.status === 200) {
+            return response.json(); // Parse the JSON response
+          } else {
+            throw new Error("Failed to fetch data");
+          }
+        })
+        .then(function (data) {
+          // Handle the API response data
+          doctor_categories = data;
+          loading = false;
+
+          $update();
+        })
+        .catch(function (error) {
+          // Handle any errors
+          console.error("Error:", error);
+        });
+
+      console.log(apiUrl);
+    }
+        // -------------------------------------------------------------------------------------------------------- //
+    
+        const get_all_doctor = () => {
+      var apiUrl = api_url + "get/all-doctors/";
+
+      fetch(apiUrl, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        // body: JSON.stringify(data), // Pass your data directly to the data option
+      })
+        .then(function (response) {
+          if (response.status === 200) {
+            return response.json(); // Parse the JSON response
+          } else {
+            throw new Error("Failed to fetch data");
+          }
+        })
+        .then(function (data) {
+          // Handle the API response data
+          all_doctor = data;
+          loading = false;
+
+          $update();
+        })
+        .catch(function (error) {
+          // Handle any errors
+          console.error("Error:", error);
+        });
+
+      console.log(apiUrl);
+    }
+
+    // -------------------------------------------------------------------------------------------------------- //
+
+    $on("pageInit", (e, page) => {
+      get_all_doctor();
+      get_doctor_categories();
+      
+    });
+
   return $render;
 }
 </script>

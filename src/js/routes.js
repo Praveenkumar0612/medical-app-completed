@@ -26,7 +26,7 @@ import NotFoundPage from '../pages/404.f7';
 
 var routes = [
   {
-    path: '/q',
+    path: '/',
     component: HomePage,
   },
   {
@@ -66,15 +66,15 @@ var routes = [
     component: Entrypage6,
   },
   {
-    path: '/', //home
+    path: '/home/', //home
     component: Home1,
   },
   {
-    path: '/doc-inner-page/',
+    path: '/doctor/:id',
     component: Home2,
   },
   {
-    path: '/all-doc-list/',
+    path: '/all-doc-list/', //all-doc-list
     component: doctorlist,
   },
   {

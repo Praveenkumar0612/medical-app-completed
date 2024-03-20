@@ -1547,7 +1547,9 @@ font-family: "Inter";
   text-align: center;
   padding: 20px;
 }
-
+.skeleton-container .home-doc-list-main {
+  background: #FFFFFF;
+}
 
 
 

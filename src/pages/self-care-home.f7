@@ -167,7 +167,7 @@
                         <p class="skeleton-block" style="width: 50px; margin: 5px 0 0 10px;"></p>
                       </div>
                       <div class="item-after doc-item-after">
-                        <p class="skeleton-block" style="width: 100px; margin: 0 0 0 10px;"></p>
+                        <p class="skeleton-block" style="width: 100px;"></p>
                         <h6 class="skeleton-block" style="width: 10px; margin: 0 0 0 10px;"></h6>
                       </div>
                     </div>
@@ -175,13 +175,13 @@
                 </div>
                 <div class="item-subtitle doc-item-subtitle">
                   <div class="date-let-icon">
-                    <p class="skeleton-block" style="width: 50px; margin: 0 0 0 10px;"></p>
+                    <p class="skeleton-block" style="width: 50px;"></p>
                   </div>
                   <div class="date-let-icon">
-                    <p class="skeleton-block" style="width: 50px; margin: 0 0 0 10px;"></p>
+                    <p class="skeleton-block" style="width: 50px;"></p>
                   </div>
                   <div class="date-let-icon date-let-icon-rate">
-                    <p class="skeleton-block" style="width: 20px; margin: 0 0 0 10px;"></p>
+                    <p class="skeleton-block" style="width: 20px;"></p>
                   </div>
                 </div>
               </a>

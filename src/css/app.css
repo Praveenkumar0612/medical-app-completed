@@ -2,7 +2,10 @@
 .device-cordova.device-ios {
   height: 100vh;
 }
-
+:root {
+  --skeleton-color: #e9e9e9;
+  --skeleton-icon-color: rgba(0, 0, 0, 0.25);
+}
 
 @font-face {
   font-family: 'Gilroy-SemiBold';
@@ -1532,3 +1535,41 @@ font-family: "Inter";
 .recipt-column-text-1 h3{
   padding-bottom: 5px;
 }
+
+/* ------------------------------ changes ------------------------------ */
+.popular-doctors-list .list .item-media img,
+.recent-docter-list .list .item-media img {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+.preloader-container {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

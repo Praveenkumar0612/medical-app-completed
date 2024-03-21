@@ -196,54 +196,80 @@
         <div class="swiper-con-title">
           <h2>Schedule</h2>
         </div>
-        <swiper-container class="demo-swiper-multiple-doc" space-between="10" slides-per-view="3">
-          <swiper-slide>
-            <h5>23</h5>
-            <h6>March</h6>
-          </swiper-slide>
-          <swiper-slide>
-            <h5>24</h5>
-            <h6>March</h6>
-          </swiper-slide>
-          <swiper-slide>
-            <h5>25</h5>
-            <h6>March</h6>
-          </swiper-slide>
-          <swiper-slide>
-            <h5>26</h5>
-            <h6>March</h6>
-          </swiper-slide>
-          <swiper-slide>
-            <h5>27</h5>
-            <h6>March</h6>
-          </swiper-slide>
-          <swiper-slide>
-            <h5>28</h5>
-            <h6>March</h6>
-          </swiper-slide>
+        <!--<swiper-container  class="demo-swiper-multiple-doc" space-between="10" slides-per-view="3">
+    <swiper-slide><h5>23</h5><h6>March</h6></swiper-slide>
+    <swiper-slide><h5>24</h5><h6>March</h6></swiper-slide>
+    <swiper-slide><h5>25</h5><h6>March</h6></swiper-slide>
+    <swiper-slide><h5>26</h5><h6>March</h6></swiper-slide>
+    <swiper-slide><h5>27</h5><h6>March</h6></swiper-slide>
+    <swiper-slide><h5>28</h5><h6>March</h6></swiper-slide>
+  </swiper-container>-->
+        <swiper-container class="demo-swiper-multiple demo-swiper-multiple-all-doc" space-between="10"
+          slides-per-view="3">
+          <!--<form class="boxed">-->
+          <swiper-slide><input type="radio" id="date01-01" name="skills" value="23 March" />
+            <label for="date01-01">
+              <h5>23</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-02" name="skills" value="24 March" />
+            <label for="date01-02">
+              <h5>24</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-03" name="skills" value="25 march" />
+            <label for="date01-03">
+              <h5>25</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-04" name="skills" value="26 march" />
+            <label for="date01-04">
+              <h5>26</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-05" name="skills" value="27 march" />
+            <label for="date01-05">
+              <h5>27</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-06" name="skills" value="28 march" />
+            <label for="date01-06">
+              <h5>28</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-07" name="skills" value="29 march" />
+            <label for="date01-07">
+              <h5>29</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <swiper-slide><input type="radio" id="date01-08" name="skills" value="30 march" />
+            <label for="date01-08">
+              <h5>30</h5>
+              <h6>March</h6>
+            </label></swiper-slide>
+          <!-- </form>-->
         </swiper-container>
-
       </div>
-      <div class="block">
+      <div class="block time-block">
         <div class="swiper-con-title">
           <h2>Time</h2>
         </div>
-        <div class="chip doc-inner-chip">
-          <div class="chip-label">9:00</div>
+        <form class="time-box">
+          <input type="radio" id="radio02-01" name="demo02" /><label for="radio02-01">9:00</label>
+          <input type="radio" id="radio02-02" name="demo02" /><label for="radio02-02">12:00</label>
+          <input type="radio" id="radio02-03" name="demo02" /><label for="radio02-03">13:00</label>
+          <input type="radio" id="radio02-04" name="demo02" /><label for="radio02-04">16:00</label>
+          <input type="radio" id="radio02-05" name="demo02" /><label for="radio02-05">16:45</label>
+        </form>
+      </div>
+      <div class="block">
+        <div class="list links-list no-safe-areas">
+          <ul>
+            <li><a href="/appointment-page/" class="doc-inner-button-back doc-inner-button-back-1">
+                <h3>Make appointment</h3><i class="f7-icons">chevron_right</i>
+              </a></li>
+          </ul>
         </div>
-        <div class="chip doc-inner-chip">
-          <div class="chip-label">12:00</div>
-        </div>
-        <div class="chip doc-inner-chip">
-          <div class="chip-label">13:00</div>
-        </div>
-        <div class="chip doc-inner-chip">
-          <div class="chip-label">16:00</div>
-        </div>
-        <div class="chip doc-inner-chip">
-          <div class="chip-label">16:45</div>
-        </div>
-
       </div>
       <div class="block">
         <div class="swiper-con-title">
@@ -253,8 +279,64 @@
           <!-- <p>Pellentesque placerat arcu in risus facilisis, sed laoreet eros laoreet...</p> -->
           <p>${about}</p>
         </div>
-
       </div>
+      <div class="block">
+        <div class="swiper-con-title">
+          <h2>Location</h2>
+        </div>
+        <div class="grid grid-cols-2">
+          <div class="icon-box-doc-bott-main">
+            <div class="icon-box-doc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 12C12.55 12 13.021 11.804 13.413 11.412C13.8043 11.0207 14 10.55 14 10C14 9.45 13.8043 8.979 13.413 8.587C13.021 8.19567 12.55 8 12 8C11.45 8 10.9793 8.19567 10.588 8.587C10.196 8.979 10 9.45 10 10C10 10.55 10.196 11.0207 10.588 11.412C10.9793 11.804 11.45 12 12 12ZM12 19.35C14.0333 17.4833 15.5417 15.7873 16.525 14.262C17.5083 12.7373 18 11.3833 18 10.2C18 8.38333 17.4207 6.89567 16.262 5.737C15.104 4.579 13.6833 4 12 4C10.3167 4 8.89567 4.579 7.737 5.737C6.579 6.89567 6 8.38333 6 10.2C6 11.3833 6.49167 12.7373 7.475 14.262C8.45833 15.7873 9.96667 17.4833 12 19.35ZM12 22C9.31667 19.7167 7.31267 17.5957 5.988 15.637C4.66267 13.679 4 11.8667 4 10.2C4 7.7 4.80433 5.70833 6.413 4.225C8.021 2.74167 9.88333 2 12 2C14.1167 2 15.979 2.74167 17.587 4.225C19.1957 5.70833 20 7.7 20 10.2C20 11.8667 19.3377 13.679 18.013 15.637C16.6877 17.5957 14.6833 19.7167 12 22Z"
+                  fill="#1C1F1E" />
+              </svg>
+
+            </div>
+            <div class="icon-box-doc-con">
+              ${loading ? $h`
+                <div class="skeleton-text skeleton-effect-wave">---------------------</div>
+                `:$h`
+                <p>${location}</p>
+                `}
+            </div>
+          </div>
+          <div class="icon-box-doc-bott-main">
+            <div class="icon-box-doc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_9_927)">
+                  <path
+                    d="M23 20.5877V12.4668C23 11.8124 22.8651 11.1648 22.6035 10.5635C22.3419 9.9622 21.9591 9.41968 21.4783 8.96897L13.6842 1.66338C13.2299 1.23747 12.6272 1 12.0006 1C11.374 1 10.7713 1.23747 10.317 1.66338L2.52167 8.96897C2.04091 9.41968 1.65809 9.9622 1.39649 10.5635C1.1349 11.1648 0.999999 11.8124 1 12.4668V20.5877C1 21.2275 1.25754 21.8411 1.71596 22.2935C2.17438 22.7458 2.79614 23 3.44444 23H20.5556C21.2039 23 21.8256 22.7458 22.284 22.2935C22.7425 21.8411 23 21.2275 23 20.5877Z"
+                    stroke="#1C1F1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M8.37339 16.6334H9.36662V17.6266C9.36662 18.3299 9.93675 18.9 10.64 18.9H13.36C14.0632 18.9 14.6334 18.3299 14.6334 17.6266V16.6334H15.6266C16.3299 16.6334 16.9 16.0632 16.9 15.36V12.64C16.9 11.9368 16.3299 11.3666 15.6266 11.3666H14.6334V10.3734C14.6334 9.67013 14.0632 9.1 13.36 9.1H10.64C9.93675 9.1 9.36662 9.67013 9.36662 10.3734V11.3666H8.37339C7.67013 11.3666 7.1 11.9368 7.1 12.64V15.36C7.1 16.0632 7.67013 16.6334 8.37339 16.6334Z"
+                    stroke="#1C1F1E" stroke-width="1.8" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_9_927">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </div>
+            <div class="icon-box-doc-con">
+              ${loading ? $h`
+                <div class="skeleton-text skeleton-effect-wave">---------------------</div>
+                `:$h`
+                <p>${doctor_college}</p>
+                `}
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13330490.887300108!2d-17.58689863572263!3d35.34287889431433!2m3!1f0!2f0!
+          3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc42e3783261bc8b%3A0xa6ec2c940768a3ec!2sSpain!5e0!3m2!1sen!2sin!4v1707400129771!5m2!1sen!2sin"
+          class="map" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
     </div>
   </div>
 </template>

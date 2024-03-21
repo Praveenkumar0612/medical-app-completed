@@ -146,8 +146,8 @@
       <div class="chat-box-bot">
         <div class="toolbar messagebar">
           <div class="toolbar-inner">
-            <div class="messagebar-area"><textarea class="resizable" placeholder="Message">
-  </textarea>
+            <div class="messagebar-area">
+              <textarea class="resizable" placeholder="Message"> </textarea>
 </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="page" data-name="home">
+  <div class="page recipt-page" data-name="home">
     <!--<div class="navbar navbar-large">
       <div class="navbar-bg"></div>
       <div class="navbar-inner home-nav-in">

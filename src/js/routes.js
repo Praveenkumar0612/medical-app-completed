@@ -26,7 +26,7 @@ import NotFoundPage from '../pages/404.f7';
 
 var routes = [
   {
-    path: '/ss',
+    path: '/',
     component: HomePage,
   },
   {
@@ -78,11 +78,11 @@ var routes = [
     component: doctorlist,
   },
   {
-    path: '/',//all-doc-page
+    path: '/all-doc-page/',//all-doc-page
     component: alldoctorpage,
   },
   {
-    path: '/appointment-page/',
+    path: '/appointment-page/:id', //appointment-page
     component: appointmentpage,
   },
   {
@@ -90,15 +90,15 @@ var routes = [
     component: paymentpage,
   },
   {
-    path: '/chat-list/',
+    path: '/chat-list/', //chat-list
     component: chatlistpage,
   },
   {
-    path: '/chat-page/',
+    path: '/chat-page/', //chat-page
     component: chatpage,
   },
   {
-    path: '/recipt-page/',
+    path: '/recipt-page/', //recipt-page/
     component: reciptpage,
   },
   

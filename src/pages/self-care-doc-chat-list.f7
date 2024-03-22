@@ -1,5 +1,5 @@
 <template>
-  <div class="page" data-name="home">
+  <div class="page chat-list-page" data-name="home">
     <!--<div class="navbar navbar-large">
       <div class="navbar-bg"></div>
       <div class="navbar-inner home-nav-in">
@@ -81,12 +81,12 @@
       </div>
     </div>
      <!--Scrollable page content-->
-    <div class="page-content self-ca-main-pag-con">
+    <div class="page-content">
       
       <div class="block block-strong-ios block-outline-ios">
         <div class="doc-list-hed"><h1>Chat</h1></div>     
         </div>
-        <div class="block">
+        <!-- <div class="block">
           <div class="list list-strong list-outline-ios chat-list-main list-dividers-ios inset-md">
             <ul>
               <a href="/chat-page/">
@@ -253,8 +253,41 @@
         </a>
         </ul>
       </div>
+        </div> -->
+        
+        <div class="list media-list list-strong list-outline-ios list-dividers-ios inset-md">
+          <ul>
+            <li class="swipeout">
+              <div class="swipeout-content">
+                <a href="/chat-page/" class="item-link item-content">
+                  <div class="item-media">
+                    <img src="../assets/image Dr. Floyd Miles.png" alt=""/>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="item-title">Dr. Floyd Miles</div>
+                      <div class="item-after">9:12</div>
+                    </div>
+                    <div class="item-subtitle">Pediatrics</div>
+                    <div class="item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis
+                      condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum sodales sit amet,
+                      pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec dapibus feugiat. In vel
+                      dui laoreet, commodo augue id, pulvinar lacus.
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swipeout-actions-right">
+                <a class="swipeout-delete"><span class="icons material-symbols-outlined">
+                  call
+                  </span></a>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
+
+      </div>
   </div>
 </template>
 <script>

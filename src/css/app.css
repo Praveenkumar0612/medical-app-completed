@@ -6,6 +6,9 @@
   --skeleton-color: #e9e9e9;
   --skeleton-icon-color: rgba(0, 0, 0, 0.25);
   --f7-md-primary: #66CA98 !important;
+  --f7-navbar-inner-padding-left: 10px;
+  --f7-navbar-inner-padding-right: 10px;
+  --f7-list-item-text-max-lines: 1;
 }
 
 @font-face {
@@ -402,10 +405,6 @@ text-align: center;
 }
 .left-nav-home h1{
   margin-bottom: 0px;
-}
-.navbar-bg{
-  background: #F4F6F5;
-  background-color: #F4F6F5;
 }
 .bottom-ic-text{
   display: flex;
@@ -1170,6 +1169,9 @@ display: none;
   font-family: "Inter";
 
 }
+.left-nav-inner-1-1 {
+  display: flex;
+}
 .time-box input[type="radio"]:checked + label{
   background: #66CA98;
   width: 83px;
@@ -1255,8 +1257,8 @@ padding-top: 20px;
 .appoint-doc-list-button a h6{
   color: #A7A6A5;
   font-size: 16px;
-  font-weight: 600;
-  padding-top: 15px;
+  font-weight: normal;
+  padding-top: 25px;
 }
 .paymemt-page-main-lable{
   background: #EFF2F1;
@@ -1277,7 +1279,9 @@ label.paymemt-page-main-lable input[type='radio']:checked ~ .paymemt-icon-radio{
 }
 .payment-bot-button{
   text-align: center;
-  padding-top: 200px;
+  position: absolute;
+  bottom: 120px;
+  width: 100%;
 }
 .chat-list-main ul{
   background: unset;
@@ -1452,7 +1456,9 @@ font-family: "Inter";
   display: inline-flex;
   width: 100%;
   gap: 10px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  position: absolute;
+  bottom: 100px;
 }
 .icon-send-1{
   background: #66CA98;
@@ -1565,18 +1571,72 @@ font-family: "Inter";
 .icon-box-doc-icon {
   margin-right: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.appointment-page .navbar-bg {
+  background: #66CA98;
+}
+.left {
+  color: #FFFFFF;
+}
+.thank-you-card {
+  border-radius: 0 0 20px 20px;
+  background: #66CA98;
+  text-align: center;
+  padding: 20px 30px;
+}
+.thank-you-card h1{
+  color: #FFFFFF;
+}
+.thank-you-card .icons {
+  font-size: 80px;
+  color: #FFFFFF;
+  margin: 10px;
+}
+.thank-you-card p {
+  color: #FFFFFF;
+}
+.left .f7-icons {
+  font-size: 16px;
+}
+.appointment-page .home-doc-list-bott {
+  padding: 0 !important;
+}
+.payment-page .left{
+  color: #000;
+}
+.payment-page .navbar-bg,
+.chat-list-page .navbar-bg{
+  background: #f4f6f5;
+}
+.chat-list-page .list .item-subtitle {
+  font-size: 16px;
+  color: #A7A6A5;
+}
+.chat-list-page .list .item-text {
+  color: #A7A6A5;
+}
+.swipeout-content {
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+.swipeout-actions-right .swipeout-delete {
+  border-radius: 15px 0 0 15px;
+  background: #6295E2;
+}
+.swipeout-actions-right .swipeout-delete .icons {
+  font-size: 35px;
+}
+.chat-list-page .list .item-media {
+  padding-top: 0;
+}
+.chat-list-page .list .item-media img {
+  width: 50px;
+}
+.swipeout {
+  margin: 10px 0;
+}
+.recipt-page .navbar-bg {
+  background: #F4F6F5;
+}
 
 
 
